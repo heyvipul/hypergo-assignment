@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import {Link} from "react-router-dom"
 import "./player.css"
 
 const Player = () => {
@@ -36,7 +37,9 @@ const Player = () => {
         {
           videodata?.map(function (data, index) {
             return <div key={index}>
-              <img src={data.submission.thumbnail} alt="user-poster" />
+              <Link to={`singleplayer/${page}/${data.postId}`}>
+                <img src={data.submission.thumbnail} alt="user-poster" />
+              </Link> 
             </div>
           })
         }

@@ -13,7 +13,7 @@ function App() {
     </div>
     <Routes>
       <Route path='/' element={<Player/>}/>
-      <Route path='/singleplayer' element={<SinglePlayer/>} />
+      <Route path='/singleplayer/:page/:index' element={<SinglePlayer/>} />
     </Routes>  
     </>
   )
