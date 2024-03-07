@@ -24,7 +24,7 @@ const SinglePlayer = () => {
 
   useEffect(()=>{
     getSingleData();
-  },[index])
+  },[page])
 
   
   //function to get singlepost data
