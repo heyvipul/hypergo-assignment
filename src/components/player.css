@@ -1,0 +1,21 @@
+.all-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.all-cards > div img{
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.all-cards > div{
+    margin-top: 80px;
+}
+
+.scroll-to-top {
+    transition: scroll-behavior 0.5s ease-in-out;
+}
