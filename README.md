@@ -1,6 +1,8 @@
 ## Overview
 This project is a simplified "Video Clone" web application built using ReactJS and several external dependencies.
 
+### deployed link : https://65ead0c6af0985599c5b9e57--lighthearted-vacherin-1d7f54.netlify.app/
+
 ### Quick Start
 
 Clone the following repository in you code-editor 
