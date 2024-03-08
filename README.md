@@ -1,7 +1,7 @@
 ## Overview
 This project is a simplified "Video Clone" web application built using ReactJS and several external dependencies.
 
-### deployed link : https://65ead0c6af0985599c5b9e57--lighthearted-vacherin-1d7f54.netlify.app/
+#### deployed link : https://65ead0c6af0985599c5b9e57--lighthearted-vacherin-1d7f54.netlify.app/
 
 ### Quick Start
 
@@ -24,6 +24,8 @@ npm run dev
 ```
 
 Your application will be accessible at http://localhost:5173
+
+## Screenshots :
 
 ![image](https://github.com/heyvipul/hypergo-assignment/assets/131906819/fd31ba43-4e65-4a9f-8d8f-dc9e32144dd0)
 
