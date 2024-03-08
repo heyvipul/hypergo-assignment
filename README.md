@@ -1,9 +1,12 @@
-## Quick Start
+## Overview
+This project is a simplified "Video Clone" web application built using ReactJS and several external dependencies.
+
+### Quick Start
 
 Clone the following repository in you code-editor 
 
 ```
-[npm install](https://github.com/heyvipul/hypergo-assignment.git)
+https://github.com/heyvipul/hypergo-assignment.git
 ```
 
 Run the following command to download the node_modules:
@@ -20,6 +23,9 @@ npm run dev
 
 Your application will be accessible at http://localhost:5173
 
+![image](https://github.com/heyvipul/hypergo-assignment/assets/131906819/fd31ba43-4e65-4a9f-8d8f-dc9e32144dd0)
+
+![image](https://github.com/heyvipul/hypergo-assignment/assets/131906819/4f79bf2a-d57f-4180-8364-42f7bf52b514)
 
 
 # React + Vite
