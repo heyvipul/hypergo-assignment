@@ -25,7 +25,7 @@ npm run dev
 
 Your application will be accessible at http://localhost:5173
 
-## Screenshots :
+### screenshots :
 
 ![image](https://github.com/heyvipul/hypergo-assignment/assets/131906819/fd31ba43-4e65-4a9f-8d8f-dc9e32144dd0)
 
