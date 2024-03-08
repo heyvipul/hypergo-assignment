@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom"
-import Skeleton from 'react-loading-skeleton';
+import { FaHeart } from "react-icons/fa";
 import "./player.css"
 
 const Player = () => {
@@ -27,6 +27,8 @@ const Player = () => {
     getData();
   }, [page])
 
+  console.log(videodata);
+
   //function to play video on hover
   const handleMouseEnter = index => {
     setHoveredIndex(index);
@@ -45,8 +47,6 @@ const Player = () => {
       video.currentTime = 0;
     }
   };
-
-
 
 
   return (
@@ -68,6 +68,10 @@ const Player = () => {
                     // autoPlay
                     loop />
                 </Link>
+                <div className="user-info">
+                  <p>#{data.creator.handle || "user001"} </p>
+                  <p id="heart"><FaHeart/></p>
+                </div>
               </div>
             })
           }

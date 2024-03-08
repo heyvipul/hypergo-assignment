@@ -1,7 +1,7 @@
 .wrapper{
     background: rgb(222, 222, 222);
     border: 1px solid rgb(209, 208, 208);
-    height: 800px;
+    /* height: 1600px; */
 }
 
 .all-cards{
@@ -66,4 +66,19 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.wrapper .user-info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -80px;
+}
+.wrapper .user-info > p{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(241, 240, 235);
+}
+.wrapper .user-info > #heart{
+    color: red;
+}
+
 
