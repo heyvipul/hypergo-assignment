@@ -1,5 +1,7 @@
 .wrapper{
-
+    background: rgb(222, 222, 222);
+    border: 1px solid rgb(209, 208, 208);
+    height: 800px;
 }
 
 .all-cards{
@@ -10,17 +12,17 @@
     gap: 10px;
 }
 
-.all-cards > div img{
+.all-cards > div img,video{
     width: 350px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
     transition: all 0.2s;
 }
 
-.all-cards > div img:hover{
-        /* filter: blur(5px); 
-        transition: filter 0.3s ease-in-out;  */
-        transform: scale(1.02);      
+.all-cards > div video:hover{
+        /* filter: blur(5px);  */
+        /* transition: filter 0.3s ease-in-out;  */
+        transform: scale(1.04);      
 }
 
 .all-cards > div{
@@ -34,7 +36,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px;
+    margin: 20px;
+    padding-bottom: 20px;
     gap: 10px;
 }
 .wrapper > .btn-div > span{
@@ -44,8 +47,8 @@
 }
 .wrapper > .btn-div > button{
     display: inline-block;
-    padding: 10px 25px;
-    font-size: 20px;
+    padding: 5px 20px;
+    font-size: 18px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
